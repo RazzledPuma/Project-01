@@ -4,31 +4,44 @@ body {
 	font-weight: 400;
 }
 
+
 h2 {
 	font-size: 300%;
 }
 
+
 h3 {
 	font-size: 225%;
 }
+
+
 hr {
 	border-width: 4px;
 	margin: 20px 0 30px;
 	border-color: #F8981C;
-} 
+}
+
 
 .text-muted {
 	color: #BCBBBB;
 }
+
+
 .text-thin {
 	font-weight: 100;
 }
+
+
 .title-super {
 	font-size: 50px;
 }
+
+
 .title-logo {
 	margin-top: 20px;
 }
+
+
 .img-hero {
 	margin-bottom: 20px;
 }

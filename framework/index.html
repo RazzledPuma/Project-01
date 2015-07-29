@@ -1,127 +1,142 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:100,300' >
-    <script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
-    <title>Project 01</title>
-  </head>
-  <body>
-    <div class="container">  
-      <div class="row">
-        <div class="col-md-6"><img src="images/title_logo.png" alt="Portfolio Logo" class="title-logo img-responsive">
-        </div>
-        <div class="col-md-6 text-uppercase text-right">
-            <h1 class="title-super text-thin">Rory Wade-Easley</h1>
-            <h4>Front-end Ninja</h4>
-        </div>
-      </div> <!-- close Row -->
-      <div class="row">
-        <div class="col-md-12">
-          <hr>
-          <img src="images/space-hero_use.png" alt="Earth from space" class="img-responsive img-hero">
-        </div>
-      </div> <!-- close Row -->
-      <div class="row">
-        <div class="col-md-12">
-          <h2 class="text-muted">Featured Work</h2>
-        </div>
-      </div> <!-- close Row -->
-      <div class="row text-center">
-        <div class="col-md-4">
-          <img src="images/appify-project_use.png" alt="Image for Appify project" class="img-responsive" data-toggle="modal" data-target="#project1">
-          <h3 class="text-uppercase">Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div> <!-- close column -->
-        <div class="col-md-4">
-          <img src="images/glorify-project_use.png" alt="Image for Glorify project" class="img-responsive" data-toggle="modal" data-target="#project02">
-          <h3 class="text-uppercase">Glorify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div> <!-- close column -->
-        <div class="col-md-4">
-          <img src="images/modify-project_use.png" alt="Image for Modify project" class="img-responsive" data-toggle="modal" data-target="#project03">
-          <h3 class="text-uppercase">Modify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div> <!-- close column -->
-      </div> <!-- close Row -->
-    </div> <!-- close Container -->
+<head>
+  <link rel="stylesheet" href="css/bootstrap.min.css"/>
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href='http://fonts.googleapis.com/css?family=Lato:100,300'/>
+  <script type="text/javascript" src="js/jquery-2.1.4.min.js" async></script>
+  <script type="text/javascript" src="js/bootstrap.min.js" async></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta charset="utf-8"/>
+  <title>Project 01</title>
+</head>
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6"><img src="images/title_logo.png"
+           alt="Portfolio Logo"
+           class="title-logo img-responsive" />
+      </div>
+      <div class="col-md-6 text-uppercase text-right">
+        <h1 class="title-super text-thin">Rory Wade-Easley</h1>
+        <h4>Front-end Ninja</h4>
+      </div>
+    </div><!-- close Row -->
+    <div class="row col-md-12">
+    <hr />
+    <img src="images/space-hero_use.png"
+         alt="Earth from space"
+         class="img-responsive img-hero"/>
+    </div><!-- close Row -->
+    <div class="row col-md-12">
+      <h2 class="text-muted">Featured Work</h2>
+    </div><!-- close Row -->
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img src="images/appify-project_use.png"
+             alt="Image for Appify project"
+             class="img-responsive"
+             data-toggle="modal"
+             data-target="#project1" />
+        <h3 class="text-uppercase">Appify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div><!-- close column -->
+      <div class="col-md-4">
+        <img src="images/glorify-project_use.png"
+             alt="Image for Glorify project"
+             class="img-responsive"
+             data-toggle="modal"
+             data-target="#project02" />
+        <h3 class="text-uppercase">Glorify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div><!-- close column -->
+      <div class="col-md-4">
+        <img src="images/modify-project_use.png"
+             alt="Image for Modify project"
+             class="img-responsive"
+             data-toggle="modal"
+             data-target="#project03" />
+        <h3 class="text-uppercase">Modify</h3>
+        <p><a href="http://github.com">Link to project</a></p>
+      </div><!-- close column -->
+    </div><!-- close Row -->
+  </div><!-- close Container -->
+  <!-- Modal Project1 -->
+  <div class="modal fade modal-dialog modal-content"
+       id="project1"
+       tabindex="-1"
+       role="dialog"
+       aria-labelledby="myModalLabel01"
+       aria-hidden="true">
+    <div class="modal-header">
+      <h4 class="modal-title"
+          id="myModalLabel01">Favorite App Page</h4>
+    </div>
 
-    <!-- Modal Project1 -->
-    <div 
-      class="modal fade" 
-      id="project1" 
-      tabindex="-1" 
-      role="dialog" 
-      aria-labelledby="myModalLabel01" 
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel01">Favorite App Page</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Image for Appify project modal">
-            This was my first project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
+    <div class="modal-body">
+      <img class="img-responsive"
+           src="http://placehold.it/555x300"
+           alt="Image for Appify project modal" /> This was my first project in this
+           class. I learned a lot about HTML and CSS.
     </div>
-    <!-- End Modal Project1-->
-    <!-- Modal Project02 -->
-    <div 
-      class="modal fade" 
-      id="project02" 
-      tabindex="-1" 
-      role="dialog" 
-      aria-labelledby="myModalLabel02" 
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel02">Favorite App Page 02</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Image for Glorify project modal">
-            This was my second project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
+
+    <div class="modal-footer">
+      <button type="button"
+           class="btn btn-default"
+           data-dismiss="modal">Close</button>
     </div>
-    <!-- End Modal Project02-->
-        <!-- Modal Project03 -->
-    <div 
-      class="modal fade" 
-      id="project03" 
-      tabindex="-1" 
-      role="dialog" 
-      aria-labelledby="myModalLabel03" 
-      aria-hidden="true"
-    >
-      <div class="modal-dialog">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h4 class="modal-title" id="myModalLabel03">Favorite App Page 03</h4>
-          </div>
-          <div class="modal-body">
-            <img class="img-responsive" src="http://placehold.it/555x300" alt="Image for Modify project modal">
-            This was my third project in this class. I learned a lot about HTML and CSS.
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-      </div>
+  </div><!-- End Modal Project1-->
+  <!-- Modal Project02 -->
+
+  <div class="modal fade modal-dialog modal-content"
+       id="project02"
+       tabindex="-1"
+       role="dialog"
+       aria-labelledby="myModalLabel02"
+       aria-hidden="true">
+    <div class="modal-header">
+      <h4 class="modal-title"
+          id="myModalLabel02">Favorite App Page 02</h4>
     </div>
-    <!-- End Modal Project03-->
+
+    <div class="modal-body">
+      <img class="img-responsive"
+           src="http://placehold.it/555x300"
+           alt="Image for Glorify project modal" /> This was my second project in this
+           class. I learned a lot about HTML and CSS.
+    </div>
+
+    <div class="modal-footer">
+      <button type="button"
+           class="btn btn-default"
+           data-dismiss="modal">Close</button>
+    </div>
+  </div><!-- End Modal Project02-->
+  <!-- Modal Project03 -->
+
+  <div class="modal fade modal-dialog modal-content"
+       id="project03"
+       tabindex="-1"
+       role="dialog"
+       aria-labelledby="myModalLabel03"
+       aria-hidden="true">
+    <div class="modal-header">
+      <h4 class="modal-title"
+          id="myModalLabel03">Favorite App Page 03</h4>
+    </div>
+
+    <div class="modal-body">
+      <img class="img-responsive"
+           src="http://placehold.it/555x300"
+           alt="Image for Modify project modal" /> This was my third project in this
+           class. I learned a lot about HTML and CSS.
+    </div>
+
+    <div class="modal-footer">
+      <button type="button"
+           class="btn btn-default"
+           data-dismiss="modal">Close</button>
+    </div>
+  </div><!-- End Modal Project03-->
 </body>
 </html>
